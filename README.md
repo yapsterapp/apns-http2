@@ -1,5 +1,12 @@
 # apns-http2
 
+## deploy private artefact to clojars
+
+```
+mvn install
+lein deploy clojars yapsterapp/apns-http2 1.0.7.1 target/apns-http2-1.0.7.1.jar pom.xml
+```
+
 [![Build Status](https://travis-ci.org/CleverTap/apns-http2.svg?branch=master)](https://travis-ci.org/CleverTap/apns-http2)
 
 A Java library for sending notifications via APNS using Apple's new HTTP/2 API.
