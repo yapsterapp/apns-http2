@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.clevertap.apns</groupId>
+    <groupId>yapsterapp</groupId>
     <artifactId>apns-http2</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.7.1</version>
 
     <name>apns-http2</name>
     <description>A library for communicating with the Apple Push Gateway in HTTP/2.</description>
