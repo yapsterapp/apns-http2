@@ -6,7 +6,7 @@
 
     <groupId>yapsterapp</groupId>
     <artifactId>apns-http2</artifactId>
-    <version>1.0.7.2</version>
+    <version>1.0.7.3</version>
 
     <name>apns-http2</name>
     <description>A library for communicating with the Apple Push Gateway in HTTP/2.</description>
