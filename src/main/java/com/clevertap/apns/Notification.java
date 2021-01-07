@@ -252,6 +252,11 @@ public class Notification {
             return this;
         }
 
+        public Builder customAlertField(String key, Object value) {
+            alert.put(key, value);
+            return this;
+        }
+
         public Builder topic(String topic) {
             this.topic = topic;
             return this;
