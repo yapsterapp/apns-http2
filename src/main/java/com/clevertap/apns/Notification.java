@@ -257,6 +257,11 @@ public class Notification {
             return this;
         }
 
+        public Builder customApsField(String key, Object value) {
+            aps.put(key, value);
+            return this;
+        }
+
         public Builder topic(String topic) {
             this.topic = topic;
             return this;
