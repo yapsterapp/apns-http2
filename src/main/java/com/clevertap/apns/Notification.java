@@ -208,6 +208,11 @@ public class Notification {
             return this;
         }
 
+        public Builder alertSubtitle(String subtitle) {
+            alert.put("subtitle", subtitle);
+            return this;
+        }
+
         public Builder urlArgs(String[] args) {
             aps.put("url-args", args);
             return this;
